@@ -1,10 +1,10 @@
-# ts-async-specification
+# async-specification
 
 A asynchronous implementation of the specification pattern
 
 ## Installation
 
-`npm i ts-async-specification`
+`npm i async-specification`
 
 ## Usage
 
@@ -22,7 +22,7 @@ interface IAsyncSpecification<T> {
 ```
 
 ```typescript
-import { AsyncSpecification } from 'ts-async-specification';
+import { AsyncSpecification } from 'async-specification';
 
 class NumberIsFortyTwo extends AsyncSpecification<number> {
   async isSatisfiedBy(n: number) {
